@@ -10,7 +10,7 @@ namespace Calculator
         public double firstNumber { get; set; }
         public double secondNumber { get; set; }
         public string stringOperation { get; set; }
-
+        public string Phone { get; set; }
         public CHistory(double firstNum, double secondNum, string op)
         {
             firstNumber = firstNum;
