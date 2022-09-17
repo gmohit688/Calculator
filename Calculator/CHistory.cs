@@ -6,6 +6,7 @@ namespace Calculator
 {
     class CHistory
     {
+        public string Name { get; set; }
         public double firstNumber { get; set; }
         public double secondNumber { get; set; }
         public string stringOperation { get; set; }
